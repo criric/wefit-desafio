@@ -52,6 +52,7 @@ export const ItemName = styled.h1`
     color: #2F2E41;
     margin: 0;
     text-align: right;
+    width: max-content;
     `
 
 export const ItemPrice = styled.h1`
