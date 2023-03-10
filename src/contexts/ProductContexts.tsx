@@ -71,7 +71,7 @@ export default function ProductContextProvider({children}: {children: React.Reac
     useEffect(() => {
         setTimeout(() => {
             getProducts()
-        }, 10000)
+        }, 1000)
     }, [])
 
     return(
