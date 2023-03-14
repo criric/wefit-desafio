@@ -16,7 +16,7 @@ export default function Home(){
                     )}
                 </Container>
                 :
-                <div>oi</div>
+                <LoadingScreen />
             }
         </BaseLayout>
     )
